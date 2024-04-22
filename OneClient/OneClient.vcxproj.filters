@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Libs\minhook">
+      <UniqueIdentifier>{8abbadc6-38f7-4ebc-aaee-fc76c55bfd4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\minhook\Hde">
+      <UniqueIdentifier>{553a6832-110b-4651-ad88-55a218b0cc38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{0ee0409b-5b96-4f0f-aca0-c06dbf2d8d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Hook">
+      <UniqueIdentifier>{c4d81054-144a-4ef8-ae95-8cfaeb72b449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Hook\Hooks">
+      <UniqueIdentifier>{24533a36-0a46-4b20-8fe2-9a3ac960244b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\Resource Files">
+      <UniqueIdentifier>{e4ce6a3b-345d-4b1d-af0c-f66df31b530b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Source Files">
+      <UniqueIdentifier>{b9c76b34-0829-4aa2-96c7-e5ae9fafd8b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Libs\minhook\buffer.c">
+      <Filter>Libs\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\minhook\hook.c">
+      <Filter>Libs\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\minhook\trampoline.c">
+      <Filter>Libs\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\minhook\hde\hde32.c">
+      <Filter>Libs\minhook\Hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\minhook\hde\hde64.c">
+      <Filter>Libs\minhook\Hde</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Libs\minhook\MinHook.h">
+      <Filter>Libs\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\minhook\hde\hde32.h">
+      <Filter>Libs\minhook\Hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\minhook\hde\hde64.h">
+      <Filter>Libs\minhook\Hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\minhook\hde\table32.h">
+      <Filter>Libs\minhook\Hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\minhook\hde\table64.h">
+      <Filter>Libs\minhook\Hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\minhook\hde\pstdint.h">
+      <Filter>Libs\minhook\Hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\minhook\buffer.h">
+      <Filter>Libs\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\minhook\trampoline.h">
+      <Filter>Libs\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Globals.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Utils.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Hook\Hooks\FuncHook.h">
+      <Filter>SDK\Hook\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Keymap.h">
+      <Filter>SDK\Hook\Hooks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
